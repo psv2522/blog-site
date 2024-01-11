@@ -5,6 +5,8 @@ import { client, urlFor } from "@/lib/sanity"
 import Image from "next/image";
 import Link from "next/link";
 
+export const revalidate = 30; //Revalidate at most 30s
+
 async function getData() {
   const query = `*[_type=="blog"] | order(_createdAt desc) {
   title,

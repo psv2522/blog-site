@@ -1,7 +1,9 @@
 import { fullBlog } from "@/lib/interface";
 import { client, urlFor } from "@/lib/sanity"
 import Image from "next/image";
-import { PortableText} from "@portabletext/react"
+import { PortableText } from "@portabletext/react"
+
+export const revalidate = 30; //Revalidate at most 30s
 
 async function getData(slug: string) {
   const query = `*[_type=="blog" && slug.current== '${slug}']{

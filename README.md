@@ -4,9 +4,12 @@ My Blog made using Next.js, React, Typescript, ShadcnUI, Tailwind and Sanity.io
 
 [My Sanity studio](https://psv2522-blog-site.sanity.studio/structure)
 
+Requires sanity configuration to add posts through the backend
+
 ## Getting Started
 
 ```bash
+npm install
 npm run dev
 ```
 

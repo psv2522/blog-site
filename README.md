@@ -1,6 +1,6 @@
 My Blog made using Next.js, React, Typescript, ShadcnUI, Tailwind and Sanity.io
 
-[Visit my Blog here](https://psv2522-blog-site.vercel.app)
+[Visit my Blog here](https://psv2522-blog.vercel.app)
 
 [My Sanity studio](https://psv2522-blog-site.sanity.studio/structure)
 
